@@ -120,3 +120,12 @@ This project is in an early concept stage. Contributions, ideas, and discussions
 ## 📄 License
 
 MIT License
+
+## ▶️ Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Then open the local URL shown by Vite (typically `http://localhost:5173`).
