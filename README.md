@@ -14,6 +14,33 @@ It extracts, analyzes, routes, and tracks deals automatically—so teams can mov
 
 ---
 
+## 🖥️ Frontend Prototype
+
+A lightweight React + Vite landing experience is included with performant, accessibility-aware motion:
+
+- Hero entrance animation for headline and CTA
+- Scroll-triggered section reveal
+- Hover/tap micro-interactions for cards and buttons
+- Animated 6-step horizontal process flow with active-step highlighting
+- Low-opacity animated blueprint/grid background
+- Count-up KPI metrics that trigger on viewport entry
+- Reduced-motion support via `prefers-reduced-motion`
+
+### Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+### Build
+
+```bash
+npm run build
+```
+
+---
+
 ## ⚙️ Core Features
 
 - **Automated Data Intake**  
