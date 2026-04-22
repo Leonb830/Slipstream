@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" role="img" aria-label="Approval map">
+  <rect width="480" height="280" fill="#132a4d"/>
+  <g fill="#f8fbff" font-family="Arial,sans-serif" font-size="18">
+    <text x="36" y="72">Intake</text>
+    <text x="192" y="72">Risk Check</text>
+    <text x="352" y="72">Approval</text>
+  </g>
+  <g fill="none" stroke="#57f0ff" stroke-width="3">
+    <rect x="30" y="90" width="120" height="86" rx="8"/>
+    <rect x="182" y="90" width="120" height="86" rx="8"/>
+    <rect x="334" y="90" width="120" height="86" rx="8"/>
+    <path d="M150 134h32M302 134h32"/>
+  </g>
+</svg>
