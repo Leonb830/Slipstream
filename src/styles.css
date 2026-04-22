@@ -101,6 +101,9 @@ body {
   padding: 1.3rem;
   margin-bottom: 1rem;
   backdrop-filter: blur(4px);
+  box-shadow:
+    0 18px 48px rgba(2, 6, 16, 0.45),
+    0 4px 14px rgba(78, 117, 186, 0.14);
 }
 
 .section-subtitle {
@@ -133,12 +136,18 @@ body {
   display: grid;
   gap: 0.35rem;
   cursor: pointer;
+  box-shadow:
+    0 14px 34px rgba(2, 6, 16, 0.38),
+    0 4px 10px rgba(118, 156, 230, 0.12);
 }
 
 .process-node.active {
   border-color: rgba(135, 181, 255, 0.75);
   background: linear-gradient(160deg, rgba(33, 63, 108, 0.94), rgba(27, 44, 81, 0.94));
-  box-shadow: 0 0 0 1px rgba(128, 174, 255, 0.2), 0 10px 30px rgba(8, 15, 27, 0.6);
+  box-shadow:
+    0 0 0 1px rgba(128, 174, 255, 0.2),
+    0 20px 50px rgba(8, 15, 27, 0.72),
+    0 8px 18px rgba(122, 166, 255, 0.18);
 }
 
 .step-index {
@@ -164,6 +173,9 @@ body {
   border: 1px solid rgba(145, 179, 238, 0.22);
   border-radius: 14px;
   padding: 1rem;
+  box-shadow:
+    0 14px 34px rgba(2, 6, 16, 0.34),
+    0 4px 10px rgba(111, 150, 223, 0.1);
 }
 
 .metric-value {
@@ -188,6 +200,9 @@ body {
   padding: 1rem;
   border: 1px solid rgba(152, 191, 255, 0.2);
   background: rgba(17, 28, 49, 0.88);
+  box-shadow:
+    0 14px 34px rgba(2, 6, 16, 0.34),
+    0 4px 10px rgba(111, 150, 223, 0.1);
 }
 
 .info-card p {
