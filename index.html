@@ -1,95 +1,117 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Slipstream | Deal Orchestration</title>
+    <title>Slipstream | AI Automation Blueprint</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Slipstream | AI Automation Blueprint</title>
-  <meta name="description" content="Slipstream accelerates deal approvals with AI-powered orchestration, smart routing, and workflow automation." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <canvas id="bg-canvas" aria-hidden="true"></canvas>
-
-  <header class="topbar">
-    <div class="logo">SLIPSTREAM</div>
-    <nav>
-      <a href="#solution">Solution</a>
-      <a href="#impact">Impact</a>
-      <a href="#roadmap">Roadmap</a>
-      <button id="themeToggle" class="btn btn-ghost" aria-label="Toggle theme">🌙</button>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero reveal">
-      <p class="eyebrow">AI AUTOMATION BLUEPRINT</p>
-      <h1>Faster approvals. Happier customers. More revenue.</h1>
-      <p class="sub">
-        Slipstream streamlines the entire deal approval lifecycle —
-        from intake and AI extraction to smart routing, review, and decision sync.
+    <div class="page-grid" aria-hidden="true"></div>
+    <header class="hero card">
+      <p class="eyebrow">Blueprint Mode</p>
+      <h1>Slipstream AI Automation Blueprint</h1>
+      <p class="subtitle">
+        Move from fragmented approvals to orchestrated decisions with a modern
+        operating system for revenue-critical workflows.
       </p>
-      <div class="cta-row">
-        <a class="btn btn-primary" href="#solution">Explore the Flow</a>
-        <a class="btn btn-ghost" href="#impact">See Business Impact</a>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#mission">Launch the Demo</a>
+        <a class="btn btn-secondary" href="#use-cases">See Use Cases</a>
       </div>
-      <div class="kpis">
-        <article><strong data-count="80">0</strong><span>% Faster approvals</span></article>
-        <article><strong data-count="30">0</strong><span>% Higher win rate</span></article>
-        <article><strong data-count="40">0</strong><span>% Team productivity gain</span></article>
-      </div>
-    </section>
+    </header>
 
-    <section id="solution" class="panel reveal">
-      <h2>Solution Overview</h2>
-      <p class="section-sub">An AI platform that removes bottlenecks across approvals.</p>
-      <div class="timeline">
-        <div class="step active"><span>1</span><h3>Deal Intake</h3><p>Capture from CRM, forms, CPQ.</p></div>
-        <div class="step"><span>2</span><h3>AI Extraction</h3><p>Classify risk, value, and type.</p></div>
-        <div class="step"><span>3</span><h3>Smart Routing</h3><p>Send to best approvers by rules.</p></div>
-        <div class="step"><span>4</span><h3>AI Review</h3><p>Summaries, risks, and recommendations.</p></div>
-        <div class="step"><span>5</span><h3>Approval Workflow</h3><p>Approve / reject / request changes.</p></div>
-        <div class="step"><span>6</span><h3>Decision & Notify</h3><p>Sync outcome across systems.</p></div>
-      </div>
-    </section>
+    <main class="layout">
+      <section id="mission" class="card section-block">
+        <h2>Mission</h2>
+        <p>
+          Build a single place where deal data, approvals, and stakeholder
+          context converge so teams can act quickly and confidently.
+        </p>
+      </section>
 
-    <section id="impact" class="panel reveal">
-      <h2>Business Impact</h2>
-      <div class="cards">
-        <article class="card tilt"><h3>Speed</h3><p>50–80% faster approval cycles.</p></article>
-        <article class="card tilt"><h3>Revenue</h3><p>10–30% increase in deal win rate.</p></article>
-        <article class="card tilt"><h3>Productivity</h3><p>20–40% team efficiency gains.</p></article>
-        <article class="card tilt"><h3>Compliance</h3><p>End-to-end visibility and audit trails.</p></article>
-      </div>
-    </section>
+      <section class="card section-block">
+        <h2>Outcomes</h2>
+        <ul class="metric-list">
+          <li>
+            <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#bolt" /></svg>
+            <div>
+              <h3>2x Faster Approvals</h3>
+              <p>Route the right decision to the right approver instantly.</p>
+            </div>
+          </li>
+          <li>
+            <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#target" /></svg>
+            <div>
+              <h3>Higher Win Rates</h3>
+              <p>Give sellers AI-backed guidance to close with confidence.</p>
+            </div>
+          </li>
+          <li>
+            <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#shield" /></svg>
+            <div>
+              <h3>Audit-Ready Controls</h3>
+              <p>Track every decision with full context and policy checks.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
 
-    <section id="roadmap" class="panel reveal">
-      <h2>Implementation Roadmap</h2>
-      <ol class="roadmap">
-        <li><strong>Discover</strong><span>1–2 weeks</span></li>
-        <li><strong>Configure</strong><span>3–6 weeks</span></li>
-        <li><strong>Pilot</strong><span>2–4 weeks</span></li>
-        <li><strong>Scale</strong><span>2–4 weeks</span></li>
-        <li><strong>Optimize</strong><span>Ongoing</span></li>
-      </ol>
-    </section>
-  </main>
+      <section class="card section-block">
+        <h2>Capabilities</h2>
+        <div class="chip-grid">
+          <span>AI Intake</span>
+          <span>Deal Summaries</span>
+          <span>Risk Scoring</span>
+          <span>Smart Routing</span>
+          <span>Approval Workflows</span>
+          <span>Learning Loop</span>
+        </div>
+      </section>
 
-  <footer class="footer reveal">
-    <p>⭐ Our promise: We don’t just automate approvals. We accelerate your business.</p>
-  </footer>
+      <section class="card section-block" aria-labelledby="process-heading">
+        <h2 id="process-heading">Process Steps</h2>
+        <ol class="process-list">
+          <li>
+            <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#inbox" /></svg>
+            <p>Ingest from CRM, CPQ, forms, and email.</p>
+          </li>
+          <li>
+            <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#spark" /></svg>
+            <p>Extract attributes and score risk with AI + rules.</p>
+          </li>
+          <li>
+            <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#flow" /></svg>
+            <p>Auto-route by policy, role, urgency, and deal profile.</p>
+          </li>
+          <li>
+            <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#check" /></svg>
+            <p>Resolve with clear recommendations and synced outcomes.</p>
+          </li>
+        </ol>
+      </section>
 
-  <script src="script.js"></script>
-</body>
+      <section class="card section-block">
+        <h2>Integrations</h2>
+        <div class="chip-grid">
+          <span>Salesforce</span>
+          <span>HubSpot</span>
+          <span>Slack</span>
+          <span>Teams</span>
+          <span>Outlook</span>
+          <span>Google Workspace</span>
+        </div>
+      </section>
+
+      <section id="use-cases" class="card section-block">
+        <h2>Use Cases</h2>
+        <ul class="use-case-list">
+          <li>Sales discount approvals</li>
+          <li>Contract and legal review</li>
+          <li>Payment term exceptions</li>
+          <li>Vendor onboarding decisions</li>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>
