@@ -1,4 +1,13 @@
 {
+  "name": "slipstream-blueprint-guardrails",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check:bundle": "node scripts/check-bundle-size.mjs",
+    "check:lighthouse": "lhci autorun"
+  },
+  "devDependencies": {
+    "@lhci/cli": "0.15.1"
   "name": "slipstream-web",
   "private": true,
   "version": "0.1.0",
