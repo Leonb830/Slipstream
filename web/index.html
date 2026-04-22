@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slipstream Blueprint Experience</title>
+    <meta
+      name="description"
+      content="A motion-rich, accessible blueprint experience for inclusive and fast product storytelling."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" aria-label="Site header">
+      <div class="brand-row">
+        <p class="eyebrow">Slipstream</p>
+        <h1>Blueprint to Approval Velocity</h1>
+        <p>
+          Motion-rich storytelling, tuned with guardrails for accessibility, keyboard navigation,
+          and performance budgets.
+        </p>
+      </div>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#journey">Journey</a></li>
+          <li><a href="#guardrails">Guardrails</a></li>
+          <li><a href="#metrics">Metrics</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section id="journey" aria-labelledby="journey-heading" class="panel panel-hero">
+        <h2 id="journey-heading">Approval Journey</h2>
+        <p>
+          We keep contextual animation for wayfinding and clarity, while honoring user preferences
+          like reduced motion.
+        </p>
+        <div class="interactive-row">
+          <button type="button" id="pulse-toggle" aria-pressed="true" aria-label="Toggle ambient motion effects">
+            Pause ambient motion
+          </button>
+          <a class="button-link" href="#metrics" aria-label="Jump to performance and accessibility metrics">
+            View metrics
+          </a>
+        </div>
+        <img
+          src="./images/deal-stream.svg"
+          alt="Illustration of a deal moving through review checkpoints"
+          width="640"
+          height="320"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </section>
+
+      <section id="guardrails" aria-labelledby="guardrails-heading" class="panel">
+        <h2 id="guardrails-heading">Inclusion Guardrails</h2>
+        <h3>Accessibility-first interaction model</h3>
+        <ul>
+          <li>Color choices exceed WCAG AA contrast requirements.</li>
+          <li>Every control has an accessible label and visible focus state.</li>
+          <li>Landmarks and heading order preserve screen-reader context.</li>
+        </ul>
+        <img
+          src="./images/approval-map.svg"
+          alt="Blueprint map showing accessible checkpoints in the approval flow"
+          width="480"
+          height="280"
+          loading="lazy"
+          decoding="async"
+        />
+      </section>
+
+      <section id="metrics" aria-labelledby="metrics-heading" class="panel">
+        <h2 id="metrics-heading">Performance Guardrails</h2>
+        <h3>Budgets that keep the page fast</h3>
+        <p>
+          Non-critical media is lazy-loaded, SVGs are optimized, and CI checks bundle size plus
+          Lighthouse budgets.
+        </p>
+        <button type="button" id="contrast-help" aria-label="Read why these contrast colors were selected">
+          Why these colors?
+        </button>
+        <p id="contrast-note" hidden>
+          The blueprint background uses deep navy while text and controls use near-white and bright
+          cyan accents, keeping contrast ratios in WCAG AA range for regular and large text.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Built for inclusive deal orchestration experiences.</p>
+    </footer>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>

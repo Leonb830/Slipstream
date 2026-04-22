@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="Deal stream">
+  <rect width="640" height="320" fill="#0a1d3a"/>
+  <g fill="none" stroke="#3ddcfc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 160h120l40-40h120l40 40h120l40-40h80"/>
+    <circle cx="160" cy="160" r="14" fill="#f8fbff"/>
+    <circle cx="320" cy="120" r="14" fill="#f8fbff"/>
+    <circle cx="480" cy="160" r="14" fill="#f8fbff"/>
+  </g>
+</svg>
