@@ -92,12 +92,11 @@ function ProcessFlow() {
       {processSteps.map((step, index) => {
         const isActive = index === activeStep;
         return (
-          <div key={step} className="process-node-wrap">
+          <div key={step} className="process-node-wrap" role="listitem">
             <motion.button
               type="button"
               className={`process-node ${isActive ? 'active' : ''}`}
               onClick={() => setActiveStep(index)}
-              role="listitem"
               whileHover={reduceMotion ? undefined : { y: -4, scale: 1.01 }}
               whileTap={reduceMotion ? undefined : { scale: 0.98 }}
               transition={{ duration: 0.2 }}
