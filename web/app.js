@@ -27,18 +27,3 @@ contrastHelp.addEventListener('click', () => {
     contrastNote.setAttribute('hidden', '');
   }
 });
-
-const lazyPanels = document.querySelectorAll('.panel img[loading="lazy"]');
-const io = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('is-visible');
-        io.unobserve(entry.target);
-      }
-    });
-  },
-  { rootMargin: '100px 0px' }
-);
-
-lazyPanels.forEach((panel) => io.observe(panel));
